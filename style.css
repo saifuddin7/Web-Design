@@ -1,0 +1,84 @@
+*{
+	box-sizing:border-box;
+}
+
+.logo{
+	
+}
+
+.name{
+	
+	text-align:center;
+	height:150px;
+	padding-top:60px;
+	background-color:#858988;
+	font-size:40px;
+	color:white;
+	font-weight:bold;
+}
+
+.menu{
+	border-style:solid;
+	height:50px;
+	text-align:center;
+	padding-top:8px;
+	background-color:#A35742;
+	color:white;
+}
+
+.menu a{
+	text-decoration:none;
+	color:white;
+	display:block;  /*by this if u click outside 
+					the link in div it will get clicked*/
+}
+
+.banner{
+	height:200px;
+	border-style:solid;
+	text-align:center;
+	padding-top:80px;
+	font-weight:bold;
+	font-size:40px;
+	color:white;
+	background-color:#FFA289;
+}
+
+.about_project{
+	text-align:justify;
+}
+
+.service{
+	text-align:justify;
+}
+.map,.youtube{
+	margin-top:20px;
+}
+
+.footer{
+	height:300px;
+	background-color:#3E2020;
+	color:white;
+	
+	font-weight:bold;
+	box-shadow:10px 20px 10px rgb(195, 164, 164);
+	
+	
+}
+
+.footer p{
+	padding-left:20px;
+}
+
+.footer h4{
+	padding-left:10px;
+}
+
+.footer a{
+	text-decoration:none;
+	color:white;
+	padding-right:60px;
+	text-align:justify;
+	
+	
+}

@@ -1,0 +1,134 @@
+*{
+	box-sizing:border-box;
+}
+.body{
+	background-image:linear-gradient(to bottom right, #BFBBBB , #E6E1E1 , #F8F3F3);
+}
+.head{
+	background-image:url('stars.jpg');
+	background-attachment:fixed;
+	height:300px;
+	padding-top:20px;
+	margin-top:10px;
+	
+}
+.head h1{
+	display:inline;
+	float:left;
+	margin:30px 0px 0px 300px;
+	color:#C2ACAC;
+	font-size:68px;
+}
+input[type="text"]{
+	margin:43px 0px 0px 187px;
+	width:50%;
+	height:40px;
+	border-radius:10px;
+	border-style:none;
+}
+.head button{
+	border-style:none;
+	margin:40px 222px 0px 0px;
+	float:right;
+	border-radius:10px;
+}
+h2:nth-child(3){
+	text-align:center;
+	
+}
+h2{
+	text-decoration:2px underline;
+	margin:100px 0px 0px 0px;
+	color:#8A4141
+}
+.main{
+	margin-top:50px;
+	box-shadow:10px 10px 5px rgb(185, 159, 159);
+	background-color:white;
+}
+.main:hover{
+	box-shadow:10px 10px 5px rgb(122, 68, 68);
+}
+ol{
+	text-align:center;
+	list-style:none;
+	display:inline;
+	float:left;
+	margin:0px 20px 0px 0px;
+	line-height:50px;
+}
+.btn{
+	font:25px bold;
+	text-decoration:5px overline solid rgb(255, 254, 197);
+	margin:0px 25px 10px 25px;
+	border-style:none;
+	width:250px;
+	height:50px;
+	color:white;
+	background-color:skyblue;
+}
+
+.main2{
+	float:left;
+	margin-top:50px;
+	border-radius:30px;
+	box-shadow:10px 10px 10px  rgb(107, 30, 30);
+	overflow:hidden;
+	background-color:white;
+	
+}
+
+.main2:hover{
+	box-shadow:10px 10px 5px rgb(185, 159, 159);
+}
+.main2 p{
+	float:right;
+	margin:10px 10px 0px 0px;
+}
+span{
+	color:#BDBDBD;
+}
+.h2{
+	text-align:center;
+	color:#985050;
+}
+
+.foot{
+	overflow:hidden;
+	display:inline-block;
+	background-color:#F1F1F1;
+	margin:50px 10px 50px 10px;;
+	text-align:center;
+	font-family:Courier New;
+}
+.foot3{
+	padding-top:50px;
+}
+
+.footer{
+	height:300px;
+	background-color:#3E2020;
+	color:white;
+	
+	font-weight:bold;
+	box-shadow:10px 20px 10px rgb(195, 164, 164);
+	
+	
+}
+
+.footer p{
+	padding-left:20px;
+}
+
+.footer h4{
+	padding-left:10px;
+}
+
+.footer a{
+	text-decoration:none;
+	color:white;
+	padding-right:60px;
+	text-align:justify;
+	
+	
+}
